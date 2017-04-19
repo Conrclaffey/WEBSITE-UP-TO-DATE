@@ -21,6 +21,7 @@ h1 {
   color: white;
   text-align: center;
   font-family: 'roboto', sans-serif, bold;
+  border-top: 10px solid white;
 }
 
 h2 {
@@ -35,6 +36,21 @@ h2 {
 
   line-height: 140%;
 }
+
+h3 {
+  position: absolute;
+  top: 5%;
+  left: 19%;
+  font-size: 60px;
+  transform: translate(10%,10%);
+  color: white;
+  text-align: left;
+  font-family: 'roboto', sans-serif; 
+
+  line-height: 140%;
+}
+
+
 p {
   margin: 0;
   font-size: 1.5rem;
