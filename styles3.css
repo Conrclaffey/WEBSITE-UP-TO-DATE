@@ -1,7 +1,4 @@
 body {
-  
- 
-
   background:
     url(CLOUDYBACKGROUND.jpg) center no-repeat ,
     url(CLOUDYBACKGROUND.jpg) repeat ;
@@ -10,33 +7,45 @@ body {
 }
 
 h2 {
-  position: absolute;
-  top: 45%;
-  left: 54%;
-	font-size: 20px;
-  padding-right: : 100px;
-  transform: translate(10%,10%);
+  position: left;
+  font-size: 40px;
   color: white;
-  text-align: center;
   font-family: 'roboto', sans-serif, light;
 }
 
 h3 {
   position: auto;
    display:inline-block;
-  top: 45%;
-  left: 54%;
   font-size: 60px;
    color: white;
   font-family: 'roboto', sans-serif, bold, italic;
 border-bottom: 10px solid white;
   }
 
+h4 {
+  position: absolute;
+  top: 3%;
+  left: 80%;
+font-size:40px;
+  color: white;
+  font-family: 'roboto', sans-serif, light;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+ 
+
+a:hover {
+    color: black;
+}
 
 
 p {
 font-size: 20px
-color: black;
+color: white;
 font-family: 'roboto', sans-serif, light;
 }
 

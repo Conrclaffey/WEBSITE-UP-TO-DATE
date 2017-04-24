@@ -1,6 +1,10 @@
+
+
 body {
-   background:
-    url(lanepicbackground.jpg) no-repeat;
+    background:
+    url(CLOUDYBACKGROUND2.jpg) center no-repeat ,
+    url(CLOUDYBACKGROUND2.jpg) repeat ;
+
     
 }
 
@@ -11,7 +15,7 @@ h2 {
 	font-size: 20px;
   padding-right: : 100px;
   transform: translate(10%,10%);
-  color: black;
+  color: white;
   text-align: center;
   font-family: 'roboto', sans-serif, light;
 }
@@ -22,9 +26,9 @@ h3 {
   top: 45%;
   left: 54%;
   font-size: 60px;
-   color: black;
+   color: white;
   font-family: 'roboto', sans-serif, bold, italic;
-border-bottom: 10px solid black;
+border-bottom: 10px solid white;
   }
 
   h4 {
@@ -40,19 +44,20 @@ font-size:40px;
 a {
   outline: none;
   text-decoration: none;
-  color: black;
+  color: white;
 }
  
 
 a:hover {
-    color: white;
+    color: black;
 }
 
 
 
 p {
-color: black;
-font-family: 'roboto', sans-serif, light;
+color: white;
+font-family: 'roboto', sans-serif, bold;
+font-size:20px;
 }
 
 
