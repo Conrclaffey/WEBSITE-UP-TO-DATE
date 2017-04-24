@@ -3,19 +3,18 @@
 
 
 h2 {
-  position: absolute;
-  top: 3%;
-  left: 30%;
-
+  position: left;
   color: black;
   font-family: 'roboto', sans-serif, light;
+  text-align: center;
 }
+
+
 
 h3 {
   position: auto;
    display:inline-block;
-  top: 45%;
-  left: 54%;
+  
   font-size: 60px;
    color: black;
   font-family: 'roboto', sans-serif, bold, italic;
@@ -40,3 +39,5 @@ color: black;
 font-family: 'roboto', sans-serif, light;
 }
 
+
+.logo {margin-right: 20px;}
