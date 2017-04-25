@@ -5,7 +5,7 @@
 h2 {
   position: left;
   color: black;
-  font-family: 'roboto';
+  font-family: 'roboto', bold;
   text-align: left;
 }
 
