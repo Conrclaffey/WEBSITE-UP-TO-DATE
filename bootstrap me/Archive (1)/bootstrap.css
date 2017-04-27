@@ -1,0 +1,25 @@
+.bg-1 { 
+    background-color:  #D3D3D3; 
+    color: #ffffff;
+}
+
+.bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+
+.container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    body {
+    font: 20px "roboto", bold;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {font-size: 16px;}
