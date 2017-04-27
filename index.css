@@ -1,0 +1,45 @@
+.jumbotron { 
+    background-image: url("IMG_0294.jpg");
+    color: #ffffff;
+    padding: 300px 10px;
+}
+
+.bg-grey {
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.logo {
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.thumbnail {
+    border:none;
+    margin:20px;
+
+}
+
+.hover08 figure img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+a:hover { 
+    opacity:50%;
+}
