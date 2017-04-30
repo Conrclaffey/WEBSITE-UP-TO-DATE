@@ -1,6 +1,6 @@
 .img-thumbnail {
 border:none;
-padding:none;
+padding:20px;
 margin:none;
 border-radius: 0;
 }
@@ -12,6 +12,7 @@ h1
 {font-size: 100px;
 	
 }
+
 
 
 .background{opacity:50%;}
