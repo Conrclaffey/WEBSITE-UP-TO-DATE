@@ -2,7 +2,11 @@
     background-image: url("IMG_0294.jpg");
     color: #ffffff;
     padding: 300px 10px;
+
 }
+
+a:hover {
+   color:white};
 
 .bg-grey {
     background-color: #ffffff;
@@ -26,8 +30,19 @@
 .thumbnail {
     border:none;
     margin:20px;
-
+    border-radius:0;
+    transition: box-shadow 0.5s;
 }
+
+
+.thumbnail:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .8);
+}
+
+
+
+
+h1{text-decoration: none;}
 
 .hover08 figure img {
     -webkit-filter: grayscale(100%);
