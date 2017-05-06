@@ -5,8 +5,12 @@
 
 }
 
-a:hover {
-   color:white};
+h1, h2, h3, h4, h5, h6 {
+    font-family: "roboto";
+}
+p, div {
+    font-family: "roboto";
+}
 
 .bg-grey {
     background-color: #ffffff;
@@ -29,7 +33,7 @@ a:hover {
 
 .thumbnail {
     border:none;
-    margin:20px;
+    margin:0px;
     border-radius:0;
     transition: box-shadow 0.5s;
 }
@@ -38,7 +42,6 @@ a:hover {
 .thumbnail:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .8);
 }
-
 
 
 
